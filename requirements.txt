@@ -1,0 +1,13 @@
+torch
+torchaudio
+fastapi
+uvicorn
+numpy
+pydub
+librosa
+scipy
+audioread
+soundfile
+transformers
+tqdm
+ffmpeg
