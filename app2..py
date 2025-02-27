@@ -6,7 +6,7 @@ import torchaudio
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
-from fish_speech.model import FishSpeech  # Ensure FishSpeech is imported
+from fish_speech.models import FishSpeech  # Ensure FishSpeech is imported
 
 # Step 1: Convert Indic-TTS Dataset into Required Format
 DATA_DIR = "data/train"
